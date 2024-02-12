@@ -1,0 +1,484 @@
+repo_name: Jeff-Bouchard/node-oidc-provider
+report_id: 6eaface5ecf04ea3efae59a8f6806997
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-12T10:33:54+00:00'
+requested_by: panva
+provider: github
+branch: main
+detected_tools_count: 35
+tools:
+- name: Eta
+  description: A powerful language for building scalable systems on the JVM
+  website_url: http://eta-lang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6490/2OjlqE5m.jpg
+  detection_source_url: https://github.com/Jeff-Bouchard/node-oidc-provider/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Filip Skokan
+  last_updated_on: 2016-01-11 19:37:24.000000000 Z
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/Jeff-Bouchard/node-oidc-provider
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/Jeff-Bouchard/node-oidc-provider
+  detection_source: Repo Metadata
+- name: ExpressJS
+  description: Sinatra inspired web development framework for node.js -- insanely
+    fast, flexible, and simple
+  website_url: http://expressjs.com/
+  version: 4.18.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1163/hashtag.png
+  detection_source_url: https://github.com/Jeff-Bouchard/node-oidc-provider/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Filip Skokan
+  last_updated_on: 2023-02-28 08:41:04.000000000 Z
+- name: Fastify
+  description: Fast and low overhead web framework, for Node.js
+  website_url: http://www.fastify.io/
+  version: 4.25.2
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/7609/24939410.png
+  detection_source_url: https://github.com/Jeff-Bouchard/node-oidc-provider/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Filip Skokan
+  last_updated_on: 2024-01-22 11:08:30.000000000 Z
+- name: Koa
+  description: Next generation web framework for node.js
+  website_url: http://koajs.com/
+  version: 2.15.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1726/5055057.png
+  detection_source_url: https://github.com/Jeff-Bouchard/node-oidc-provider/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Filip Skokan
+  last_updated_on: 2016-01-11 19:37:24.000000000 Z
+- name: Chai
+  description: A BDD / TDD assertion library
+  website_url: http://chaijs.com/
+  version: 4.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/1725/chai.png
+  detection_source_url: https://github.com/Jeff-Bouchard/node-oidc-provider/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Filip Skokan
+  last_updated_on: 2016-01-11 19:37:24.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/Jeff-Bouchard/node-oidc-provider/blob/main/.eslintrc
+  detection_source: ".eslintrc"
+  last_updated_by: Filip Skokan
+  last_updated_on: 2016-01-11 19:37:24.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Jeff-Bouchard/node-oidc-provider
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/Jeff-Bouchard/node-oidc-provider/blob/main/.github/workflows/codeql.yml
+  detection_source: ".github/workflows/codeql.yml"
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-12-18 20:44:29.000000000 Z
+- name: Mocha
+  description: Simple, flexible, fun javascript test framework for node.js &amp; the
+    browser
+  website_url: http://mochajs.org/
+  version: 10.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/832/mocha.png
+  detection_source_url: https://github.com/Jeff-Bouchard/node-oidc-provider/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Filip Skokan
+  last_updated_on: 2023-02-28 08:41:04.000000000 Z
+- name: SinonJS
+  description: Standalone test spies, stubs and mocks for JavaScript
+  website_url: http://sinonjs.org/
+  version: 17.0.1
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/3509/logo.png
+  detection_source_url: https://github.com/Jeff-Bouchard/node-oidc-provider/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Filip Skokan
+  last_updated_on: 2023-11-20 16:31:02.000000000 Z
+- name: SuperTest
+  description: A library for testing node.js HTTP servers
+  website_url: https://www.npmjs.com/package/supertest
+  version: 6.3.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/Jeff-Bouchard/node-oidc-provider/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Filip Skokan
+  last_updated_on: 2024-01-22 11:08:30.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/Jeff-Bouchard/node-oidc-provider/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Filip Skokan
+  last_updated_on: 2016-01-11 19:37:24.000000000 Z
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  version: 4.17.21
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: https://github.com/Jeff-Bouchard/node-oidc-provider/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Filip Skokan
+  last_updated_on: 2021-09-27 15:40:44.000000000 Z
+- name: Moment.js
+  description: A JavaScript date library for parsing, validating, manipulating, and
+    formatting dates
+  website_url: http://momentjs.com/
+  version: 2.30.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png
+  detection_source_url: https://github.com/Jeff-Bouchard/node-oidc-provider/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Filip Skokan
+  last_updated_on: 2024-01-22 11:08:30.000000000 Z
+- name: "@hapi/hapi"
+  description: HTTP Server framework
+  package_url: https://www.npmjs.com/@hapi/hapi
+  version: 21.3.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18181/default_9472f2a1c56256064874685c48697eac8a870621.png
+  detection_source_url: https://github.com/Jeff-Bouchard/node-oidc-provider/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Filip Skokan
+  last_updated_on: 2023-04-27 15:29:31.000000000 Z
+- name: base64url
+  description: For encoding to/from base64urls
+  package_url: https://www.npmjs.com/base64url
+  version: 3.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18265/default_eca55303586c828b2de78eb927c79a3104586ca0.png
+  detection_source_url: https://github.com/Jeff-Bouchard/node-oidc-provider/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Filip Skokan
+  last_updated_on: 2022-11-28 13:02:35.000000000 Z
+- name: connect
+  description: High performance middleware framework
+  package_url: https://www.npmjs.com/connect
+  version: 3.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16202/default_2c2f2c7b016f84c0fad2576cb986cb14a5dbbc2f.png
+  detection_source_url: https://github.com/Jeff-Bouchard/node-oidc-provider/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Filip Skokan
+  last_updated_on: 2019-11-28 14:57:14.000000000 Z
+- name: debug
+  description: Small debugging utility
+  package_url: https://www.npmjs.com/debug
+  version: 2.6.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15852/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
+  detection_source_url: https://github.com/Jeff-Bouchard/node-oidc-provider/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Jan Opravil
+  last_updated_on: 2022-07-18 14:49:17.000000000 Z
+- name: eslint-config-airbnb-base
+  description: Airbnb's base JS ESLint config, following our styleguide
+  package_url: https://www.npmjs.com/eslint-config-airbnb-base
+  version: 15.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15888/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/Jeff-Bouchard/node-oidc-provider/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Filip Skokan
+  last_updated_on: 2024-01-22 11:08:30.000000000 Z
+- name: eslint-plugin-import
+  description: Import with sanity
+  package_url: https://www.npmjs.com/eslint-plugin-import
+  version: 2.29.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/Jeff-Bouchard/node-oidc-provider/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Filip Skokan
+  last_updated_on: 2024-01-22 11:08:30.000000000 Z
+- name: express
+  description: Fast, unopinionated, minimalist web framework
+  package_url: https://www.npmjs.com/express
+  version: 4.18.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/Jeff-Bouchard/node-oidc-provider/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Filip Skokan
+  last_updated_on: 2023-02-28 08:41:04.000000000 Z
+- name: got
+  description: Human-friendly and powerful HTTP request library for Node.js
+  package_url: https://www.npmjs.com/got
+  version: 13.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16258/default_ab17554b7e80af3d234b14168ed61e75d43f8eee.png
+  detection_source_url: https://github.com/Jeff-Bouchard/node-oidc-provider/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Filip Skokan
+  last_updated_on: 2016-01-11 19:37:24.000000000 Z
+- name: helmet
+  description: Help secure Express/Connect apps with various HTTP headers
+  package_url: https://www.npmjs.com/helmet
+  version: 7.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16584/default_7be6bee773ad8b04cf2fb7e9ff82f5d7ba648dfd.png
+  detection_source_url: https://github.com/Jeff-Bouchard/node-oidc-provider/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Filip Skokan
+  last_updated_on: 2023-11-20 16:31:02.000000000 Z
+- name: jsesc
+  description: Given some data
+  package_url: https://www.npmjs.com/jsesc
+  version: 3.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17662/default_894a45ad01fa93ac472db719cb1ef1b89f2924f0.png
+  detection_source_url: https://github.com/Jeff-Bouchard/node-oidc-provider/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Filip Skokan
+  last_updated_on: 2021-09-27 15:40:44.000000000 Z
+- name: koa-body
+  description: A Koa body parser middleware
+  package_url: https://www.npmjs.com/koa-body
+  version: 6.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17200/default_21a37a533dd8aea78721b028b3e7b47e018dcb48.png
+  detection_source_url: https://github.com/Jeff-Bouchard/node-oidc-provider/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Filip Skokan
+  last_updated_on: 2023-10-25 16:11:09.000000000 Z
+- name: koa-mount
+  description: Mounting middleware for koa
+  package_url: https://www.npmjs.com/koa-mount
+  version: 4.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17608/default_2b5fe3dc5bfc4e83a84162459ff612ac6febd61a.png
+  detection_source_url: https://github.com/Jeff-Bouchard/node-oidc-provider/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Filip Skokan
+  last_updated_on: 2023-10-25 16:11:09.000000000 Z
+- name: koa-router
+  description: Router middleware for koa
+  package_url: https://www.npmjs.com/koa-router
+  version: 12.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16329/default_22cf6cee54c697b5a223902962cc57a55ee80be9.png
+  detection_source_url: https://github.com/Jeff-Bouchard/node-oidc-provider/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Filip Skokan
+  last_updated_on: 2023-10-25 16:11:09.000000000 Z
+- name: moment
+  description: Parse, validate, manipulate, and display dates
+  package_url: https://www.npmjs.com/moment
+  version: 2.30.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15847/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: https://github.com/Jeff-Bouchard/node-oidc-provider/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Filip Skokan
+  last_updated_on: 2024-01-22 11:08:30.000000000 Z
+- name: nanoid
+  description: A tiny
+  package_url: https://www.npmjs.com/nanoid
+  version: 3.3.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17208/default_183829c5079b84333a720d8590a328efc043ba0e.png
+  detection_source_url: https://github.com/Jeff-Bouchard/node-oidc-provider/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Filip Skokan
+  last_updated_on: 2023-12-02 09:37:28.000000000 Z
+- name: nock
+  description: HTTP server mocking and expectations library for Node.js
+  package_url: https://www.npmjs.com/nock
+  version: 13.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16036/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/Jeff-Bouchard/node-oidc-provider/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Filip Skokan
+  last_updated_on: 2024-01-22 11:08:30.000000000 Z
+- name: object-hash
+  description: Generate hashes from javascript objects in node and the browser
+  package_url: https://www.npmjs.com/object-hash
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16940/default_ebf16e0c8af5e95030933d9e01479224b6665289.png
+  detection_source_url: https://github.com/Jeff-Bouchard/node-oidc-provider/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Filip Skokan
+  last_updated_on: 2023-04-27 15:29:31.000000000 Z
+- name: raw-body
+  description: Get and validate the raw body of a readable stream
+  package_url: https://www.npmjs.com/raw-body
+  version: 2.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17336/default_66bbb2a75a0234b1bfceaa99b8e82825fa7b8284.png
+  detection_source_url: https://github.com/Jeff-Bouchard/node-oidc-provider/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Filip Skokan
+  last_updated_on: 2023-02-28 08:41:04.000000000 Z
+- name: timekeeper
+  description: Easy testing of time-dependent code
+  package_url: https://www.npmjs.com/timekeeper
+  version: 2.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18304/default_d05de2d31ff2708c984b6c11ea3c9ff07c2a4764.png
+  detection_source_url: https://github.com/Jeff-Bouchard/node-oidc-provider/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Filip Skokan
+  last_updated_on: 2023-08-27 13:02:00.000000000 Z
